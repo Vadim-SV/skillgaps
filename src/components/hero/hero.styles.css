@@ -1,0 +1,35 @@
+.hero-section {
+    width: auto;
+    height: 700px;
+    background-image: url(../../assets/hero.jpg) ;
+    background-size: cover;
+    background-color: black;
+    opacity: 60%;
+}
+
+.hero {
+
+}
+
+.hero-header {
+
+}
+
+.background-tint {
+
+}
+
+
+.background-image {
+    max-width: 500;
+    max-width: 500;
+    
+
+
+}
+
+.image-background {
+    max-width: 300px;
+    max-width: 300px;
+    
+}

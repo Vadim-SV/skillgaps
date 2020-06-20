@@ -43,6 +43,25 @@ export const GlobalStyle = createGlobalStyle `
   }
 }
 
+.main-title {
+  font-family: 'Roboto-Bold';
+  text-align: center;
+  font-size: 20px;
+
+}
 
 
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto-Regular'), url(./fonts/Roboto-Regular.ttf) format('truetype');
+  font-family: 'Roboto-Bold';
+  src: local('Roboto-Bold'), url(./fonts/Roboto-Bold.ttf) format('truetype');
+  font-family: 'Roboto-Thin';
+  src: local('Roboto-Thin'), url(./fonts/Roboto-Thin.ttf) format('truetype');
+  font-family: 'Roboto-Light';
+  src: local('Roboto-Light'), url(./fonts/Roboto-Light.ttf) format('truetype');
+  
+  
+}
 `

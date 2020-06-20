@@ -5,6 +5,20 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from 'react-router-dom';
 
+import './fonts/Roboto-Black.ttf'; 
+import './fonts/Roboto-Bold.ttf' ;
+import './fonts/Roboto-Light.ttf' ;
+import './fonts/Roboto-Medium.ttf' ;
+import './fonts/Roboto-Regular.ttf' ;
+import './fonts/Roboto-Thin.ttf' ;
+import './fonts/Roboto-Italic.ttf' ;
+
+
+
+
+
+
+
 
 ReactDOM.render(
   <BrowserRouter>

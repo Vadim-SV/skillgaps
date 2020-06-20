@@ -6,3 +6,8 @@
     grid-gap: 20px;
 
 }
+.card-section {
+    width: auto;
+    height: auto;
+    margin: 30px;
+}

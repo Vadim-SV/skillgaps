@@ -2,6 +2,7 @@ import React , {Component} from 'react';
 import {Link} from 'react-router-dom';
 import './header.scss';
 import logo from '../../assets/SG new.svg';
+import icon from '../../assets/icon.png';
 
 
 
@@ -29,7 +30,24 @@ class Header extends Component  {
  </div>
 
  <div className = 'toggle'>
-        
+      <button className = 'toggle-button' >{<img className = 'icon-style' src={icon}/>} </button>
+      
+
+ <Link className='toggle' to = '/shop' >
+      About us
+    </Link>
+    <Link className='toggle' to = '/shop' >
+      Search job
+    </Link>
+    <Link className='toggle' to = '/shop' >
+      Job Alerts
+    </Link>
+    <Link className='toggle' to = '/shop' >
+      Sign In
+    </Link>
+    <Link className='toggle' to = '/shop' >
+      Sign up
+    </Link>  
 
 
         </div>

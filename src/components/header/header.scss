@@ -32,12 +32,37 @@
       padding: 10px;
     }  
 
+    .toggle {
+      display:none;
+    }
+    .toggle-button {
+      display: none;
+    }
+    icon-style {
+      display: none;
+    }
+
     @media only screen and (max-width: 768px)  {
      
       .options {
         display: none;
       }
- 
+      .toggle {
+        display: block;
+        margin: 20px;
+        
+      }
+      .toggle-button {
+        display: contents;
+        width:25px;
+        height: 25px;
+        
+      }
+      .icon-style{
+        
+        width: 20px;
+        height: 20px;
+      }
     }
 
   }

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Router, Route, Switch } from "react-router";
 import NavBar from './components/navbar/navbar';
-
+import Hero from './components/hero/hero.component';
 
 
 import  CardSection  from './components/card-section/card-section.jsx';
@@ -62,9 +62,10 @@ render() {
   return (
     <div>
     <GlobalStyle/>
-
+    
     <Header/>
-    <h1>Tier 2 jobs in the UK</h1>
+    <Hero/>
+    <p className = 'main-title'>Tier 2 jobs in the UK</p>
 
     <CardSection jobList = {this.state.jobList}/>  
    
