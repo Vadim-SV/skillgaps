@@ -1,0 +1,43 @@
+:root {
+    --height-lg-screens: 80px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    /* by default: align-items: strech -> child elements' heights = the container's height */
+  }
+  
+  .navbar-links {
+    display: flex;
+    /* align-items: stretch; by default */
+  }
+  
+  .navbar-home,
+  .navbar-link {
+    display: flex;
+    align-items: center; /* we want children to be centered vertically*/
+  }
+  
+  /**
+  *
+  * Smaller screen + Mobile
+  *
+  */
+  @media screen and (max-width: 1127px) {
+    .navbar {
+      flex-direction: column; /* change the direction of the container */
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+    }
+  }
+
+  .logo {
+    display: flexbox;
+    width: 30px;
+    height: 30px;
+  padding: 15px;
+  margin-right: 20px;
+    }

@@ -1,0 +1,43 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  
+    .logo-container {
+      height: auto ;
+      width: 100%;
+      padding: 15px;
+      margin-right: 20px;
+    }
+  
+    .options {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .option {
+        padding: 10px 15px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+    .Logo {
+      display: flexbox;
+      width: 40 px;
+      height: 40px;
+      padding: 10px;
+    }  
+
+    @media only screen and (max-width: 768px)  {
+     
+      .options {
+        display: none;
+      }
+ 
+    }
+
+  }

@@ -1,0 +1,86 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F3FE;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+ 
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+
+h4 {
+  display: flex;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold ;
+}
+
+
+.card-text{
+  display: flex;
+}
+
+.left-container {
+  text-align: left;
+  width: 50%;
+}
+
+.right-container {
+  text-align: right;
+  width: 50%;
+}
+
+.apply-button{
+  color: #3898ec;
+  max-width: 50%;
+  font-weight: bold;
+  align-self: center;
+  background-color: white;
+  border-color: #3898ec;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 12px 28px;
+  transition-duration: 0.4s;
+  outline:none;
+  text-decoration: none;
+  
+}
+.apply-button:hover {
+  background-color: #3898ecfd; /* Green */
+  color: white;
+}
+
+.description {
+  width: 100%;
+}
+
+p {
+  display: flex;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 5px;
+  margin-block-end: 20px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  text-decoration: underline;
+}
