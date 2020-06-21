@@ -1,0 +1,47 @@
+.footer-section {
+background-color: rgb(6, 6, 34);
+width: auto;
+height: 500px;
+color: white;
+
+}
+.footer{
+    
+}
+
+.footer-menu {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    display: grid;
+    grid-gap: 20px;
+    
+    
+}
+
+.logo{
+ font-weight: 200;
+}
+
+.about{
+    font-weight: 200
+}
+
+.services{
+    font-weight: 200
+}
+
+.contact {
+    font-weight: 200
+}
+
+.Logo {
+    display: flexbox;
+    width: 40 px;
+    height: 40px;
+    padding: 10px;
+  }  
+
+.rights {
+margin-top: 10%;
+margin-left: 10px; 
+}

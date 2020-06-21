@@ -7,6 +7,7 @@ import Hero from './components/hero/hero.component';
 import  CardSection  from './components/card-section/card-section.jsx';
 import Header from './components/header/header';
 import { GlobalStyle } from './global.styles';
+import Footer from './components/footer/footer.component';
 
 
 class App extends Component {
@@ -68,7 +69,7 @@ render() {
     <p className = 'main-title'>Tier 2 jobs in the UK</p>
 
     <CardSection jobList = {this.state.jobList}/>  
-   
+   <Footer/>
    
   
 </div>
